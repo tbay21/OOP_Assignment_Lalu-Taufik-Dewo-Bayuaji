@@ -27,19 +27,6 @@ The system also provides features to view customer information, check account ba
 - Java Scanner
 - GitHub
 
-## Project Structure
-
-```text
-Bank-Management-System/
-│
-├── src/
-│   ├── Account.java
-│   ├── Customer.java
-│   ├── Bank.java
-│   └── Main.java
-│
-└── README.md
-
 ## Classes and Methods
 
 ### Account
