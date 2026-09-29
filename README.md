@@ -39,3 +39,51 @@ Bank-Management-System/
 │   └── Main.java
 │
 └── README.md
+
+## Classes and Methods
+
+### Account
+
+**Attributes:**
+- `balance` — stores the account balance.
+
+**Constructor:**
+- `Account(double initialBalance)` — initializes the account with an initial balance.
+
+**Methods:**
+- `getBalance()` — returns the current balance.
+- `deposit(double amount)` — adds money to the account.
+- `withdraw(double amount)` — withdraws money from the account.
+
+### Customer
+
+**Attributes:**
+- `firstName` — stores the customer's first name.
+- `lastName` — stores the customer's last name.
+- `accountNumber` — stores the customer's account number.
+- `account` — stores the customer's bank account.
+
+**Constructor:**
+- `Customer(String firstName, String lastName, String accountNumber)` — initializes a customer.
+
+**Methods:**
+- `getFirstName()` — returns the customer's first name.
+- `getLastName()` — returns the customer's last name.
+- `getAccountNumber()` — returns the customer's account number.
+- `setAccount(Account account)` — assigns an account to the customer.
+- `getAccount()` — returns the customer's account.
+
+### Bank
+
+**Attributes:**
+- `customers` — stores customer objects in an array.
+- `numberOfCustomers` — stores the number of registered customers.
+
+**Constructor:**
+- `Bank()` — initializes the customer array and customer count.
+
+**Methods:**
+- `addCustomer(String firstName, String lastName, String accountNumber)` — adds a new customer.
+- `getNumOfCustomers()` — returns the number of registered customers.
+- `getCustomer(int index)` — returns a customer based on the array index.
+- `findCustomer(String accountNumber)` — finds a customer using their account number.
