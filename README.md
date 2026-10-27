@@ -75,6 +75,10 @@ The system also provides features to view customer information, check account ba
 - `getCustomer(int index)` — returns a customer based on the array index.
 - `findCustomer(String accountNumber)` — finds a customer using their account number.
 
+
+
+
+
 # Shape program
 
 ## Program Overview
